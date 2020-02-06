@@ -1,0 +1,30 @@
+execution:
+  - executor: selenium
+
+    runner: testng
+
+    scenario: netpay-selenium-performance
+
+    concurrency: 50
+
+    hold-for: 5m
+
+    ramp-up: 2m
+
+
+scenarios:
+  netpay-selenium-performance:
+    script: src/test/java/Runner/testRunner.java
+
+    addtional-classpath:
+      - netpaytest.jar
+
+
+reporting:
+  - module: blazemeter
+    test: Payzone Performance Test
+  - module: passfail
+    criterias:
+      -avg-rt>6000ms for 10s, continue as failed
+      -avg-rt>5s for 1m, continue as failed
+      -avg-rt of Confirmation>5s for 30s, continue as failed
