@@ -1,0 +1,19 @@
+---
+execution:
+- concurrency: 50
+  executor: selenium
+  hold-for: 3m
+  ramp-up: 3m
+  runner: junit
+  scenario: simple
+reporting:
+- module: blazemeter
+  test: Payzone Performance Test
+- criterias: -avg-rt>6000ms for 10s, continue as failed -avg-rt>5s for 1m, continue as failed -avg-rt of Confirmation>5s for 30s, continue as failed
+  module: passfail
+scenarios:
+  simple:
+    additional-classpath:
+    - target/test.netpay-1.0-SNAPSHOT-jar-with-dependencies.jar
+    script: src/test/java/Runner/netpayTestPayment.java
+

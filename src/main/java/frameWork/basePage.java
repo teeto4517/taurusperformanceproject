@@ -1,13 +1,11 @@
 package frameWork;
 
 import Pages.homePage;
-import org.junit.After;
-import org.junit.Before;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 
 public class basePage {
 
@@ -18,18 +16,18 @@ public class basePage {
         return new homePage ( driver );
     }
 
-    @Before
-    public void setDriver() {
+    @BeforeClass
+    public static void setDriver() {
         System.setProperty ( "webdriver.chrome.driver" , "C:/Users/User/eclipse-workspace/driver/chromedriver.exe" );
         ChromeOptions options = new ChromeOptions ();
         options.addArguments ( "headless" );
 
-        driver = new ChromeDriver ( options );
+        driver = new ChromeDriver (options);
         driver.manage ().deleteAllCookies ();
     }
 
-    @After
-    public void closeDriver() {
+    @AfterClass
+    public static void closeDriver() {
         driver.quit ();
 
     }

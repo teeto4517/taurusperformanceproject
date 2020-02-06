@@ -101,7 +101,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>Runner.testRunner</mainClass>
+                            <mainClass>netpayTestPayment</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

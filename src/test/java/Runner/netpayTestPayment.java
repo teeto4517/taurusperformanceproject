@@ -28,5 +28,4 @@ public class netpayTestPayment extends basePage {
         pin.setPin ( "0000" );
     }
 
-
 }

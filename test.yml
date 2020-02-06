@@ -22,7 +22,9 @@
 
 execution:
   - executor: selenium
-    iterations: 10
+    concurrency: 50
+    ramp-up: 3m
+    hold-for: 3m
     scenario: simple
     runner: junit
 
@@ -30,7 +32,7 @@ scenarios:
   simple:
     script: src/test/java/Runner/netpayTestPayment.java
     additional-classpath:
-      - netpaytest.jar
+      - target/test.netpay-1.0-SNAPSHOT-jar-with-dependencies.jar
 reporting:
   - module: blazemeter
     test: Payzone Performance Test

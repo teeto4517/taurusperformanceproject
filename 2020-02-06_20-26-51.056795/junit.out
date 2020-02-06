@@ -1,0 +1,5 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 32744 bytes for ChunkPool::allocate
+# An error report file with more information is saved as:
+# C:\Users\User\eclipse-workspace\test.netpay\hs_err_pid59592.log
