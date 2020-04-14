@@ -1,3 +1,11 @@
 language: java
 jdk:
-  - 13.0.2
+  - openjdk11
+  - openjdk8
+
+script: mvn clean install
+
+addons:
+  sauce_connect:
+    username: "SAUCE_USERNAME"
+    access_key: "SAUCE_ACCESS_KEY"

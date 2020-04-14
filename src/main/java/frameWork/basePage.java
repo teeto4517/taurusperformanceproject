@@ -38,9 +38,9 @@ public class basePage {
         DesiredCapabilities capabilities = new DesiredCapabilities ();
         capabilities.setCapability("username", sauceUserName);
         capabilities.setCapability("accessKey", sauceAccessKey);
-        capabilities.setCapability("browserName", "Safari");
+        capabilities.setCapability("browserName", "Chrome");
         capabilities.setCapability("platform", "macOS 10.13");
-        capabilities.setCapability("version", "11.1");
+        capabilities.setCapability("version", "59.0");
 //        capabilities.setCapability("name", method.getName());
 
         driver = new RemoteWebDriver (new URL ("https://ondemand.saucelabs.com:443/wd/hub"), capabilities);
