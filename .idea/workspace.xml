@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaa504a5-f9c1-4820-937c-cc432d296506" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.24316406" />
     <property name="project.structure.side.proportion" value="0.48320413" />
   </component>
@@ -218,7 +220,7 @@
       <workItem from="1584361366799" duration="67000" />
       <workItem from="1584362075504" duration="224000" />
       <workItem from="1584366241176" duration="320000" />
-      <workItem from="1586827175903" duration="1837000" />
+      <workItem from="1586827175903" duration="4433000" />
     </task>
     <servers />
   </component>
@@ -312,16 +314,16 @@
     </state>
     <state width="1877" height="335" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1581091004381" />
     <state width="1877" height="335" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1581093587060" />
-    <state x="440" y="100" key="SettingsEditor" timestamp="1581092298582">
+    <state x="440" y="100" key="SettingsEditor" timestamp="1586831798477">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="100" key="SettingsEditor/0.0.1920.1050/-1920.-139.1920.1050@0.0.1920.1050" timestamp="1580844121088" />
     <state x="440" y="100" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1581091266379" />
-    <state x="440" y="100" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1581092298582" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1586830667005">
+    <state x="440" y="100" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1586831798477" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1586830965594">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1586830667005" />
+    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1586830965594" />
     <state x="636" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1583838964890">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
