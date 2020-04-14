@@ -1,2 +1,9 @@
 # Default ignored files
-/workspace.xml
+../.idea
+../lib
+../test-output
+../out
+../NetpayPerformanceTest.yaml
+../test.yml
+../.classpath
+../.project
