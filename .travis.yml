@@ -3,7 +3,7 @@ jdk:
   - openjdk11
   - openjdk8
 
-script: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+script: mvn clean test
 
 addons:
   sauce_connect: true
