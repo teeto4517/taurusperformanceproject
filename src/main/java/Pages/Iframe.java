@@ -16,7 +16,7 @@ public class Iframe {
     @FindBy(xpath = "/html/body/div/div/div/div[2]/div[2]/div[1]/div[3]/div/form/div[2]/div[2]/div[1]/div/div/input") WebElement Expirydate;
     @FindBy(xpath = "/html/body/div/div/div/div[2]/div[2]/div[1]/div[3]/div/form/div[2]/div[2]/div[2]/div/div/input") WebElement InputCVV;
     @FindBy(xpath = "/html/body/div/div/div/div[2]/div[2]/div[1]/div[3]/div/form/div[2]/div[3]/div/button") WebElement pay;
-    private By loadingIndicator = By.xpath ( "/html[1]/body[1]/iframe[1]" );
+    private By loadingIndicator = By.xpath ( "//html//body//iframe" );
 
     public Iframe(WebDriver driver) {
         this.driver = driver;
@@ -25,7 +25,7 @@ public class Iframe {
 
     public pinFrame setCardDetails(String card , String expiry , String cvv) throws InterruptedException {
         WebDriverWait wait;
-        wait = new WebDriverWait ( driver , 25 );
+        wait = new WebDriverWait ( driver , 60 );
         wait.until ( visibilityOf ( driver.findElement ( loadingIndicator ) ) );
         driver.switchTo ().frame ( 0 );
         Thread.sleep ( 5000 );
