@@ -9,10 +9,6 @@
     <list default="true" id="eaa504a5-f9c1-4820-937c-cc432d296506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Iframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Iframe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frameWork/basePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frameWork/basePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pages/Iframe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/Iframe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/frameWork/basePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/frameWork/basePage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +221,7 @@
       <workItem from="1584366241176" duration="320000" />
       <workItem from="1586827175903" duration="6846000" />
       <workItem from="1586835632040" duration="838000" />
-      <workItem from="1586863174555" duration="3730000" />
+      <workItem from="1586863174555" duration="6276000" />
     </task>
     <servers />
   </component>

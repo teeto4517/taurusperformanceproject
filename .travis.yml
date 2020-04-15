@@ -3,9 +3,8 @@ jdk:
   - openjdk11
   - openjdk8
 
-script: mvn clean install
+script: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
 addons:
-  sauce_connect:
-    username: SAUCE_USERNAME
-    access_key: SAUCE_ACCESS_KEY
+  sauce_connect: true
+
